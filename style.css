@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.continare{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    height: 926px;
+margin:5px auto;
+    background: #FFFFFF;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.cercle{
+    width: 100%;
+}
+.image_cercle{
+width: 246px;
+    height: 158px;
+}
+.logo{
+        width: 100%;
+            display: flex;
+            justify-content: center;
+}
+.logo img{
+    width: 314px;
+        height: 310px;
+}
+.title_phargraph h1{
+    font-family: 'Kiwi Maru';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
+    text-align: center;
+        color: #1B1111;
+        margin:20px 10px;
+}
+.title_phargraph p{
+    margin: 10px 30px;
+    font-family: 'Kiwi Maru';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: rgba(0, 0, 0, 0.7);
+}
+.bt_getstart a{
+font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+        text-decoration: none;
+        text-align: center;
+margin: auto;    
+color: #FFFFFF;
+
+}
+.bt_getstart{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin:50px 50px 20px 50px;
+    background: #8A38B1;
+        border: 1px solid #000000;
+        border-radius: 50px;
+}
+.bt_getstart:hover{
+    background: #E95701;
+}
+/* ************************************************************* */
+
+.cercle_index2{
+    position: relative;
+
+}
+.back{
+position: absolute;
+    left: 4.16%;
+    right: 3.99%;
+    top: 15.16%;
+    bottom: 4.17%;
+    
+}
+.languge_maps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.languge{
+    margin-bottom: 20px;
+    background: rgba(217, 217, 217, 0.2);
+        box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        cursor: pointer;
+        
+}
+.languge:hover{
+    background-color: #000000c6;
+    color: #FFFFFF;
+}
+.languge img{
+height: 295px;
+    width: 295px;
+
+    /* margin: 12px 23px 0px 23px; */
+
+}
+.maps{
+    margin-top: 10px;
+    background: rgba(217, 217, 217, 0.2);
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 295px;
+        width: 295px;
+        cursor: pointer;
+        
+}
+.maps:hover {
+    background-color: #000000c6;
+    color: #FFFFFF;
+}
+.maps img {
+height: 243px;
+    width: 280px;
+
+
+}
+.style_text{
+    font-family: 'Kiwi Maru';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 43px;
+        padding: 10px;
+}
+.last_cercle{
+    position: relative;
+    width: 100%;
+    
+}
+.last_cercle img{
+    position: absolute;
+width: 246px;
+    height: 158px;
+bottom: -86px;
+    left: 196px;
+}
