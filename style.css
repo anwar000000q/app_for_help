@@ -1,164 +1,438 @@
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Gentium+Book+Basic&family=Hurricane&family=Kiwi+Maru:wght@300&family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #000000;
+body {
+  background-color: #000000;
 }
-.continare{
-    border: 2px solid black;
-    display: flex;
+/* this css for index.HTML */
+.continare {
+  position: relative;
+  border: 2px solid black;
+
+  width: 428px;
+  height: 926px;
+  margin: 5px auto;
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.all{
+  display: flex;
     flex-direction: column;
-    width: 428px;
-    height: 926px;
-margin:5px auto;
-    background: #FFFFFF;
-    border-radius: 30px;
-    overflow: hidden;
 }
-.cercle{
-    width: 100%;
+.cercle {
+  width: 100%;
+      height: 152px;
 }
-.image_cercle{
-width: 246px;
-    height: 158px;
+.image_cercle {
+  z-index: 0;
+  width: 246px;
+  height: 158px;
+  position:absolute;
+  top: 0px;
+  left: 0px;
 }
-.logo{
-        width: 100%;
-            display: flex;
-            justify-content: center;
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.logo img{
-    width: 314px;
-        height: 310px;
-}
-.title_phargraph h1{
-    font-family: 'Kiwi Maru';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 43px;
-    text-align: center;
-        color: #1B1111;
-        margin:20px 10px;
-}
-.title_phargraph p{
-    margin: 10px 30px;
-    font-family: 'Kiwi Maru';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 20px;
-        text-align: center;
-    
-        color: rgba(0, 0, 0, 0.7);
-}
-.bt_getstart a{
-font-family: 'Gentium Book Basic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-        text-decoration: none;
-        text-align: center;
-margin: auto;    
-color: #FFFFFF;
 
+.title_phargraph{
+  margin-top: 20px;
 }
-.bt_getstart{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    margin:50px 50px 20px 50px;
-    background: #8A38B1;
-        border: 1px solid #000000;
-        border-radius: 50px;
-}
-.bt_getstart:hover{
-    background: #E95701;
-}
-/* ************************************************************* */
 
-.cercle_index2{
-    position: relative;
+.title_phargraph h1 {
+font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+    font-size: 51px;
+  line-height: 43px;
+  text-align: center;
+  color: #1b1111;
+  margin: 10px 10px;
+}
+.h1index1 h1 {
+  font-size: 36px;
+}
+.title_phargraph p {
+  margin: 10px 30px;
+  font-family: "Kiwi Maru";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
 
+  color: rgba(0, 0, 0, 0.7);
 }
-.back{
-position: absolute;
-    left: 4.16%;
-    right: 3.99%;
-    top: 15.16%;
-    bottom: 4.17%;
-    
+.bt_getstart a {
+ text-transform: uppercase;
+  font-family: "Gentium Book Basic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
 }
-.languge_maps{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.bt_getstart {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 50px 50px 20px 50px;
+  background: #8a38b1;
+  border: 1px solid #000000;
+  border-radius: 50px;
 }
-.languge{
-    margin-bottom: 20px;
-    background: rgba(217, 217, 217, 0.2);
-        box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
-        border-radius: 20px;
-        cursor: pointer;
-        
+.bt_getstart:hover {
+  background: #e95701;
 }
-.languge:hover{
-    background-color: #000000c6;
-    color: #FFFFFF;
-}
-.languge img{
-height: 295px;
-    width: 295px;
+/* ******************************* */
 
-    /* margin: 12px 23px 0px 23px; */
+/* THIS CSS FOR INDEX2.HTML */
 
+
+.back {
+  position: relative;
+    top: 24px;
+      left: 18px;
+      z-index: 1;
 }
-.maps{
-    margin-top: 10px;
-    background: rgba(217, 217, 217, 0.2);
-    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    height: 295px;
-        width: 295px;
-        cursor: pointer;
-        
+.languge_maps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    font-family: "Kiwi Maru";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 43px;
+      padding: 10px;
+      margin-bottom:5px ;
+}
+.languge {
+  margin-bottom: 20px;
+  background: rgba(217, 217, 217, 0.2);
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.languge:hover {
+  background-color: #000000c6;
+  color: #ffffff;
+}
+.languge img {
+  height: 295px;
+  width: 295px;
+}
+.maps {
+  margin-top: 10px;
+  background: rgba(217, 217, 217, 0.2);
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 295px;
+  width: 295px;
+  cursor: pointer;
 }
 .maps:hover {
-    background-color: #000000c6;
-    color: #FFFFFF;
+  background-color: #000000c6;
+  color: #ffffff;
 }
 .maps img {
-height: 243px;
-    width: 280px;
+  height: 243px;
+  width: 280px;
+}
+
+.last_cercle {
+  width: 100%;
+}
+.last_cercle img {
+  position: absolute;
+width: 200px;
+  height: 125px;
+
+  bottom: 0px;
+  right: 0px;
+}
 
 
+/* THIS CSS FOR INDEX3.HTML */
+
+
+
+.bt_get{
+    z-index: 1;
+    margin-top: 10px;
 }
-.style_text{
-    font-family: 'Kiwi Maru';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 43px;
-        padding: 10px;
-}
-.last_cercle{
+.logo{
     position: relative;
-    width: 100%;
-    
+      height: 250px;
+      
+ 
 }
-.last_cercle img{
-    position: absolute;
-width: 246px;
-    height: 158px;
-bottom: -86px;
-    left: 196px;
+.logo_index3{
+      top: -60px;
+}
+.logo img{
+  position: absolute;
+}
+
+.title_phargraph h2{
+font-family: 'Fredoka One';
+  font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    color: #1b1111;
+    margin: 10px 10px;
+}
+
+
+
+
+
+
+
+/* THIS FOR INDEX4 */
+
+
+
+.logo_index4{
+  width: 430.59px;
+    height: 214.1px;
+}
+.btn{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+.btn_index4{
+    margin: 18px 50px 15px 50px;}
+
+/* THIS FOT INDEX5 */
+.logo_index3 {
+  top: -22px;
+}
+
+/* THIS FOR index6 */
+
+.menu{
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
+}
+.menu_list{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: rgba(217, 217, 217, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    width: 160px;
+      height: 160px;
+      margin: 20px;
+      cursor: pointer;
+}
+.menu_list:hover{
+  background-color: #000000c6;
+}
+.menu_list img{
+width: 100%;
+  height: 150px;
+}
+.menu  a {
+  text-decoration: none;
+  color: #000000c6;
+  
+}
+.menu_list h2{
+  position: absolute;
+  bottom: -29px;
+    right: 43px;
+    font-family: 'Fredoka One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 33px;
+
+}
+
+/* THIS FOR INDEX7 */
+.btn_for_all_index7{
+  margin-top: 20px;
+}
+.logo_index7{
+  bottom: 10px;
+}
+.logo_index7 img{
+    width: 300px;
+      height: 300px;
+}
+.btn_index7{
+  z-index: 1;
+ background-color: #E19180;
+    margin: 8px 50px 7px 50px;
+}
+.btn_index7 a{
+  color: black;
+  font-family: 'Fredoka One';
+    font-style: normal;
+    font-size: 23px;
+}
+.btn_index7:hover{
+  background-color: #D61C4E;
+}
+h1.title_index7
+{
+  text-align: center;
+font-family: 'Fredoka One';
+  font-style: normal;
+  margin: 10px 5px 5px 5px;
+}
+
+/* THIS FOR INDEX8 */
+
+
+.btn_index8{
+  background-color: #048CCE;
+}
+.btn_index8:hover{
+  background-color: #7D1E6A;
+}
+.logo_index8 img {
+    width: 400px;
+      height: 350px;
+      bottom: -32px;  
+}
+
+
+/* THIS FOR INDEX9 */
+
+.btn_index9{
+  background-color: #23395E;
+}
+.btn_index9 a{
+  color: white;
+}
+
+/* THIS FOR index10 */
+.btn_index10{
+  background-color: #FB792A;
+}
+.logo_index10 img{
+  bottom: 17px;
+    width: 347px;
+    height: 283px;
+}
+/* THIS FOR INDEX11 */
+.btn_index11{
+  background-color: #ADBDD8;
+}
+
+/* THIS FOR INDEX12 */
+.btn_index12{
+  background-color: #E3BE74;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR INDEX.HTML */
+@media screen and (max-width: 425px) {
+  .continare {
+    width: 420px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .continare {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .continare {
+    width: 315px;
+  }
+  .bt_getstart {
+    margin-top: 10px;
+  }
+  .bt_getstart a {
+    font-size: 25px;
+  }
+  .back{
+    top: 13px;
+      left: 12px;
+  }
+}
+
+/* MEDIA QUERY FOR INDEX2.HTML */
+
+@media screen and (max-width: 425px) {
+  .conatiner_index2 {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .conatiner_index2 {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .conatiner_index2 {
+    width: 315px;
+  }
+    .h1index1 h1 {
+      font-size: 26px;
+    }
+  .image_cercle{
+      width: 153px;
+        height: 110px;
+  }
+  .last_cercle img {
+    width: 153px;
+    height: 100px;
+  }
+
+  .logo img{
+  width: 278px;
+    height: 339px;
+    top: -36px;
+  }
+    .title_phargraph p{
+          font-size: 13px;
+            line-height: 15px;
+            margin: 5px;
+    }
 }
